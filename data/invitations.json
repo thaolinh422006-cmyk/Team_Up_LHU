@@ -1,0 +1,17 @@
+[
+  {
+    "id": "inv_1792519468522_stmx0f",
+    "email": "luongthithanhnhan280883@gmail.com",
+    "projectId": "proj_1",
+    "projectName": "Báo Cáo Dự Án: Ứng Dụng AI Trong Giáo Dục",
+    "inviterName": "Trưởng nhóm",
+    "role": "Thành viên nhóm",
+    "status": "pending",
+    "createdAt": "2026-10-20T18:04:28.522Z",
+    "expiresAt": "2026-10-27T18:04:28.522Z",
+    "inviteUrl": "https://ais-pre-gxhn4zfvy27cvgm2zecvjt-432423183094.asia-northeast1.run.app",
+    "emailDeliveryStatus": "pending",
+    "emailDeliveryMessage": "Đã tạo lời mời",
+    "emailProvider": "none"
+  }
+]

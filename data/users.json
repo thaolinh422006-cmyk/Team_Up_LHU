@@ -1,0 +1,24 @@
+[
+  {
+    "id": "usr_huyen",
+    "name": "Thu Huyền",
+    "email": "hthuhuyen9107@gmail.com",
+    "password": "123456",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+    "role": "Trưởng nhóm / Quản trị viên",
+    "isAdmin": true,
+    "createdAt": "2026-10-26T00:00:00.000Z",
+    "lastLoginAt": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "usr_1793157460681_447f6",
+    "name": "Linh",
+    "email": "thaolinh422006@gmail.com",
+    "password": "123456",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+    "role": "Thành viên nhóm",
+    "isAdmin": false,
+    "createdAt": "2026-10-28T03:17:40.681Z",
+    "lastLoginAt": "2026-10-28T03:17:40.681Z"
+  }
+]

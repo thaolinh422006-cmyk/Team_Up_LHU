@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #059669;
+  --bg-color: #A8E6CF;
+  --primary-hover: #047857;
+  --bg-pastel-canvas: #A8E6CF2b;
+  --text-primary: #059669;
+}
+
+/* Dynamic theme classes that bind directly to CSS variables */
+.theme-btn-primary {
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+.theme-btn-primary:hover {
+  filter: brightness(0.92);
+}
+
+.theme-text-primary {
+  color: var(--primary-color) !important;
+}
+
+.theme-border-primary {
+  border-color: var(--primary-color) !important;
+}
+
+.theme-bg-color {
+  background-color: var(--bg-color) !important;
+}
+@keyframes stickerPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(99, 102, 241, 0)); }
+  50% { transform: scale(1.12); filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.4)); }
+}
+
+@keyframes stickerBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes stickerFloat {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
+
+@keyframes stickerWiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-8deg); }
+  75% { transform: rotate(8deg); }
+}
+
+@keyframes stickerHeartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.18); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.18); }
+  70% { transform: scale(1); }
+}
+
+@keyframes stickerSpinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.anim-sticker-pulse {
+  animation: stickerPulse 2s ease-in-out infinite;
+}
+
+.anim-sticker-bounce {
+  animation: stickerBounce 1.5s ease-in-out infinite;
+}
+
+.anim-sticker-float {
+  animation: stickerFloat 3s ease-in-out infinite;
+}
+
+.anim-sticker-wiggle {
+  animation: stickerWiggle 1.2s ease-in-out infinite;
+}
+
+.anim-sticker-heartbeat {
+  animation: stickerHeartbeat 1.6s ease-in-out infinite;
+}
+
+.anim-sticker-spin {
+  animation: stickerSpinSlow 6s linear infinite;
+}
+
+/* Print styling for slide presentations */
+@media print {
+  @page {
+    margin: 0;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  header, nav, aside, .sticky, button, input, [role="dialog"], #device-toast-container, .no-print {
+    display: none !important;
+  }
+  .print-only-deck {
+    display: block !important;
+  }
+  .print-slide-page {
+    page-break-after: always;
+    break-after: page;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+@media screen {
+  .print-only-deck {
+    display: none !important;
+  }
+}
+
+/* Custom list styles for Slide Canvas Textboxes */
+.teamup-list-disc {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin: 0 !important;
+}
+.teamup-list-decimal {
+  list-style-type: decimal !important;
+  padding-left: 1.5rem !important;
+  margin: 0 !important;
+}
+.teamup-list-dash {
+  list-style-type: '- ' !important;
+  padding-left: 1.5rem !important;
+  margin: 0 !important;
+}
+.teamup-list-arrow {
+  list-style-type: '→ ' !important;
+  padding-left: 1.5rem !important;
+  margin: 0 !important;
+}
+
+.teamup-list-disc > li,
+.teamup-list-decimal > li,
+.teamup-list-dash > li,
+.teamup-list-arrow > li {
+  margin-bottom: 2px;
+  padding-left: 4px;
+}

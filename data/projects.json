@@ -1,0 +1,81 @@
+[
+  {
+    "id": "proj_1",
+    "name": "Báo Cáo Dự Án: Ứng Dụng AI Trong Giáo Dục",
+    "description": "Nghiên cứu mô hình lớp học số và trợ lý ảo hỗ trợ học tập cá nhân hóa cho học sinh THPT và sinh viên đại học.",
+    "category": "Báo cáo môn học",
+    "members": [
+      {
+        "id": "usr_huyen",
+        "name": "Thu Huyền",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "role": "Trưởng nhóm / Quản trị viên",
+        "email": "hthuhuyen9107@gmail.com",
+        "isOnline": true,
+        "isAdmin": true
+      },
+      {
+        "id": "usr_1793157460681_447f6",
+        "name": "Linh",
+        "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+        "role": "Thành viên nhóm",
+        "email": "thaolinh422006@gmail.com",
+        "isOnline": true,
+        "isAdmin": false
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "avatarColor": "from-blue-600 to-indigo-600",
+    "deadline": "2026-10-30",
+    "createdAt": "26/10/2026",
+    "slides": [
+      {
+        "id": "slide_1",
+        "title": "Báo Cáo Dự Án: Ứng Dụng AI Trong Giáo Dục",
+        "subtitle": "Nghiên cứu mô hình lớp học số và trợ lý ảo",
+        "bullets": [
+          "Khảo sát thực trạng ứng dụng công nghệ trong học tập",
+          "Mô hình trợ lý học tập cá nhân hóa thông minh",
+          "Kế hoạch triển khai thử nghiệm và đánh giá hiệu quả"
+        ],
+        "notes": "Slide mở đầu dự án nghiên cứu",
+        "layout": "title",
+        "backgroundColor": "#ffffff",
+        "canvasElements": [
+          {
+            "id": "el_title_1",
+            "type": "text",
+            "x": 80,
+            "y": 120,
+            "width": 800,
+            "height": 100,
+            "text": "Báo Cáo Dự Án: Ứng Dụng AI Trong Giáo Dục",
+            "fontSize": 36,
+            "fontWeight": "bold",
+            "color": "#1e1b4b",
+            "textAlign": "center"
+          },
+          {
+            "id": "el_sub_1",
+            "type": "text",
+            "x": 100,
+            "y": 240,
+            "width": 760,
+            "height": 60,
+            "text": "Nhóm nghiên cứu đổi mới sáng tạo • Học kỳ 2026",
+            "fontSize": 20,
+            "fontWeight": "normal",
+            "color": "#4f46e5",
+            "textAlign": "center"
+          }
+        ]
+      }
+    ],
+    "ownerId": "usr_huyen",
+    "adminId": "usr_huyen",
+    "creatorId": "usr_huyen",
+    "creatorEmail": "hthuhuyen9107@gmail.com",
+    "aspectRatio": "16:9"
+  }
+]

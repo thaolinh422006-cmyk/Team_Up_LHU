@@ -1,0 +1,10 @@
+{
+  "name": "Remix TEAM UP - Không gian làm việc nhóm",
+  "description": "Nền tảng hỗ trợ làm việc nhóm tập trung: nhắn tin \u0026 voice chat micro, cùng thiết kế slide thuyết trình, phân công nhiệm vụ, theo dõi tiến độ và AI trợ lý.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

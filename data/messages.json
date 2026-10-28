@@ -1,0 +1,67 @@
+[
+  {
+    "id": "msg_welcome_teamup",
+    "projectId": "proj_1",
+    "chatId": "grp_proj_1_ch_proj_1",
+    "channelId": "ch_proj_1",
+    "senderId": "usr_huyen",
+    "senderName": "Thu Huyền",
+    "senderAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+    "senderEmail": "hthuhuyen9107@gmail.com",
+    "participants": [
+      "usr_huyen",
+      "hthuhuyen9107@gmail.com"
+    ],
+    "text": "Chào mừng các bạn đến với nhóm làm việc! Mọi người có thể cùng trao đổi, phân công nhiệm vụ và thiết kế slide nhé.",
+    "timestamp": "08:00 AM",
+    "createdAt": "2026-10-27T08:00:00.000Z",
+    "type": "text",
+    "isAi": false
+  },
+  {
+    "id": "msg_1793162896217_b1cbu",
+    "projectId": "proj_1",
+    "chatId": "dm_usr_1793157460681_447f6_usr_huyen",
+    "senderId": "usr_huyen",
+    "senderName": "Thu Huyền",
+    "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "senderEmail": "hthuhuyen9107@gmail.com",
+    "recipientId": "usr_1793157460681_447f6",
+    "receiverId": "usr_1793157460681_447f6",
+    "recipientEmail": "thaolinh422006@gmail.com",
+    "participants": [
+      "usr_1793157460681_447f6",
+      "usr_huyen",
+      "hthuhuyen9107@gmail.com",
+      "thaolinh422006@gmail.com"
+    ],
+    "text": "Chào Linh, bạn đã xem qua slide mới chưa?",
+    "timestamp": "04:48 AM",
+    "createdAt": "2026-10-28T04:48:16.217Z",
+    "type": "text",
+    "isAi": false
+  },
+  {
+    "id": "msg_1793162903308_e282m",
+    "projectId": "proj_1",
+    "chatId": "dm_usr_1793157460681_447f6_usr_huyen",
+    "senderId": "usr_1793157460681_447f6",
+    "senderName": "Linh",
+    "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "senderEmail": "thaolinh422006@gmail.com",
+    "recipientId": "usr_huyen",
+    "receiverId": "usr_huyen",
+    "recipientEmail": "hthuhuyen9107@gmail.com",
+    "participants": [
+      "usr_1793157460681_447f6",
+      "usr_huyen",
+      "thaolinh422006@gmail.com",
+      "hthuhuyen9107@gmail.com"
+    ],
+    "text": "Mình vừa xem xong rồi Huyền ơi, slide rất đẹp!",
+    "timestamp": "04:48 AM",
+    "createdAt": "2026-10-28T04:48:23.308Z",
+    "type": "text",
+    "isAi": false
+  }
+]
